@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Инновации на пальцах | equin-iq.blog</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f1115'/><path d='M30 30 L70 30 L70 70 L30 70 Z' fill='none' stroke='%2300ff9d' stroke-width='8'/><path d='M45 45 L80 45 L80 80 L45 80 Z' fill='%2300ff9d' opacity='0.5'/></svg>" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <load
+      src="./partials/header.html"
+/>
+
+<main>
+  <section class="pages">
+      <div class="container animate-on-scroll">
+          <h1>Контактная информация</h1>
+
+          <p>
+              Мы всегда открыты для общения и готовы ответить на любые вопросы, касающиеся работы нашей платформы, обучения или внедрения инновационных решений в ваш проект.
+          </p>
+
+          <div class="contact-page__grid" style="margin-top: 50px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+
+              <div class="contact-card" style="background: var(--card-bg); padding: 30px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.05);">
+                  <div style="color: var(--accent-color); font-size: 1.5rem; margin-bottom: 20px;">
+                      <i class="fas fa-phone"></i>
+                  </div>
+                  <h3 style="margin-bottom: 10px;">Телефон</h3>
+                  <p style="opacity: 0.7; margin-bottom: 15px;">Служба поддержки доступна в рабочие дни с 9:00 до 18:00 (GMT).</p>
+                  <a href="tel:+442047374295" style="font-size: 1.2rem; font-weight: 600; color: #fff;">+44 20 4737 4295</a>
+              </div>
+
+              <div class="contact-card" style="background: var(--card-bg); padding: 30px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.05);">
+                  <div style="color: var(--accent-color); font-size: 1.5rem; margin-bottom: 20px;">
+                      <i class="fas fa-envelope"></i>
+                  </div>
+                  <h3 style="margin-bottom: 10px;">Электронная почта</h3>
+                  <p style="opacity: 0.7; margin-bottom: 15px;">Пишите нам по любым вопросам, и мы ответим в течение 24 часов.</p>
+                  <a href="mailto:hello@equin-iq.blog" style="font-size: 1.2rem; font-weight: 600; color: #fff;">hello@equin-iq.blog</a>
+              </div>
+
+              <div class="contact-card" style="background: var(--card-bg); padding: 30px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.05);">
+                  <div style="color: var(--accent-color); font-size: 1.5rem; margin-bottom: 20px;">
+                      <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <h3 style="margin-bottom: 10px;">Наш адрес</h3>
+                  <p style="opacity: 0.7; margin-bottom: 15px;">Главный офис регистрации в Лондоне:</p>
+                  <address style="font-style: normal; font-weight: 600; color: #fff; line-height: 1.4;">
+                      71-75 Shelton Street, Covent Garden,<br>
+                      London, WC2H 9JQ, United Kingdom
+                  </address>
+              </div>
+
+          </div>
+
+          <div style="margin-top: 60px; padding: 30px; border-left: 4px solid var(--accent-color); background: rgba(0, 255, 157, 0.03);">
+              <p style="margin-bottom: 0;">
+                  <strong>Обратите внимание:</strong> Для запросов на возврат средств или вопросов по обработке персональных данных, пожалуйста, используйте соответствующие разделы в футере сайта для ознакомления с процедурой.
+              </p>
+          </div>
+      </div>
+  </section>
+</main>
+
+    <load src="./partials/footer.html" />
+    <div id="cookie-popup" class="cookie-popup">
+      <div class="cookie-popup__content">
+          <p>Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.html">Cookie политике</a>.</p>
+          <button id="cookie-accept" class="btn btn--header">Принять</button>
+      </div>
+  </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
+
